@@ -5,7 +5,7 @@ import Title from "./components/Title";
 import API from "./utils/API";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  
   state = {
     employees:[]
   };
@@ -22,13 +22,12 @@ class App extends Component {
 
   removeEmployee = id => {
     console.log(id)
-    // Filter this.state.friends for friends with an id not equal to the id being removed
+   
     const employees = this.state.employees.filter(employee => employee.id.value !== id);
-    // Set this.state.friends equal to the new friends array
+
     this.setState({ employees });
   };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
