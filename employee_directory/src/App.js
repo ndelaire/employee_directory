@@ -41,8 +41,11 @@ class App extends Component {
             first={employee.name.first}
             last={employee.name.last}
             email={employee.email}
-            location={employee.location.city}
-            image={employee.picture.thumbnail}
+            city={employee.location.city}
+            state={employee.location.state}
+            phone={employee.phone}
+            image={employee.picture.large}
+
           />
         ))}
       </Wrapper>

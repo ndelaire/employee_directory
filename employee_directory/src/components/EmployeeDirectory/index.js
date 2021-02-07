@@ -16,7 +16,13 @@ function EmployeeDirectory(props) {
             <strong>Email:</strong> {props.email}
           </li>
           <li>
-            <strong>Location:</strong> {props.location}
+            <strong>City:</strong> {props.city}
+          </li>
+          <li>
+            <strong>State:</strong> {props.state}
+          </li>
+          <li>
+            <strong>Phone:</strong> {props.phone}
           </li>
         </ul>
       </div>
