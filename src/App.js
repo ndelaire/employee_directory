@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import EmployeeDirectory from "./components/EmployeeDirectory";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import API from "./utils/API";
